@@ -1,4 +1,4 @@
-FROM 3.7-alpine3.12
+FROM python:3.7-alpine3.12
 
 ADD requirements.txt /service/
 WORKDIR /service
